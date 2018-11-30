@@ -1,0 +1,106 @@
+body {
+    background-image: url(../Images/bananas.png);
+    color: #777777;
+    font-family: "arial", "helvetica neue", Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    padding: none;
+    color: #ffffff;
+}
+
+nav a {
+    font-weight: bold;
+    color: #777777;
+    text-decoration: none;
+}
+
+.name {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 15px;
+}
+
+.mainBody {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.75em;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
+}
+
+img {
+    border: 1px solid #cccccc;
+    margin: 10px;
+}
+
+.push {
+    height: 80px;
+}
+
+footer {
+    background: #777777;
+    color: #ffffff;
+    text-align: center;
+    font-size: .75em;
+    border-top: 4px solid #4aaaa5;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+
+
+/* for portfolio page */
+
+
+ul {
+    list-style-type: none;
+}
+
+.photoTag {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2.25em;
+    text-align: center;
+    color: #ffffff;
+    background: #4aaaa5;
+}
+
+/* for contact page */
+
+.form-group {
+    border: 1px solid #777777;
+    border-radius: 5px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+#submit {
+    background: #4aaaa5;
+    font-family: "arial", "helvetica neue", Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+#submit:hover {
+    background: #ffffff;
+    color: #4aaaa5;
+}
